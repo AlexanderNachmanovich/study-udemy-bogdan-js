@@ -13,19 +13,16 @@
  * используя оператор typeof
  */
 
-let myString = 'Israel';
-let myNumber = 1948;
-let myLogic = true;
-let myNull = null;
-let undefined;
-let myObject = {
-  name: 'Alexander', surName: 'Nachmanovich'
-};
-let myArray = [31, 3, 1990];
+const testString = 'Israel'
+const testNumber = 1948
+const testBoolean = true
+const testNull = null
+const testUndefined = undefined
+const testObject = {
+  name: 'Alexander',
+  age: 35,
+  birthplace: 'Leningrad'
+}
+const testArray = [1, 2, 10, 'Hatul', false, true, 'Epsilon']
 
-console.log(typeof myString);
-console.log(typeof myNumber);
-console.log(typeof myLogic);
-console.log(typeof myNull);
-console.log(typeof undefined);
-console.log(typeof myObject);
+console.log(typeof testString, typeof testNumber, typeof testBoolean, typeof testNull, typeof testUndefined, typeof testObject, typeof testArray)

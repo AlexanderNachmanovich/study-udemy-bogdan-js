@@ -13,3 +13,5 @@ function fn() {
 }
 
 fn()(true)
+/* function is not defiend
+ */

@@ -12,3 +12,14 @@
  * "Сообщение номер 4"
  * "Сообщение номер 5"
  */
+
+function log(i) {
+  console.log('Сообщение номер' + i)
+}
+function interval() {
+  for (let i=1; i<=5; i++) {
+    setInterval(log, 2000)
+  }
+}
+
+setTimeout(interval, 2000)

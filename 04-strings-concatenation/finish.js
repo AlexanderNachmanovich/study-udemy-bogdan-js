@@ -11,8 +11,9 @@
  * 3. Выведите значение последней переменной в консоль
  */
 
-const myName = 'Alexander';
-const mySurname = 'Nachmanovich';
-const myProfession = 'metahnet';
-let about = `My name is ${myName} ${mySurname} and I am ${myProfession}`;
-console.log(about);
+const a = 'Alexander'
+const b = 'Nachmanovich'
+const c = 'developer'
+
+const d = 'Меня зовут ' + a + ' ' + b + ' ' + 'и моя профессия ' + c;
+console.log(d)

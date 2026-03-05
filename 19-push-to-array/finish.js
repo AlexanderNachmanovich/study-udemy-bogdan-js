@@ -6,3 +6,10 @@
  *
  * 3. Выведите в консоль длину результирующего массива
  */
+
+const array = ['Alex', 20, 23, 35, true]
+
+array.push('Nachman', 100, 500, false)
+
+console.log(array)
+console.log(array.length)

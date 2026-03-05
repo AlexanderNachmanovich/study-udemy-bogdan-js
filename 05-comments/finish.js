@@ -8,10 +8,18 @@
  * 3. Создайте многострочный комментарий
  */
 
-// Comment
+// Well hello there
 
-let a = [2, 5, 8]; // Array
+const a = 10 // constant and number ten
 
-/** I made and array
- *  and blablabla
+/** 123
+321
+123
  */
+
+/*
+123
+321
+123
+ */
+

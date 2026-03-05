@@ -10,6 +10,7 @@
  */
 
 function myName() {
-  console.log(`My name is Alexander`)
+  console.log('Alexander')
 }
-myName();
+
+myName()
